@@ -1,4 +1,16 @@
-#nav_link {
-    text-decoration: none;
+#nav_link ul li{
+    float: left;
     list-style: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+}
+#nav_link ul li a {
+    text-align: center;
+    display: block;
+    padding: .7em 0;
+    text-decoration: none;
+    background-color: black;
+    color: white;
 }
